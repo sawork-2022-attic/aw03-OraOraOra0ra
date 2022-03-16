@@ -13,4 +13,10 @@ public class Item {
     public String toString(){
         return product.toString() +"\t" + quantity;
     }
+
+    public void addAmount(int n) { quantity += n;}
+
+    public int getAmount() {
+        return quantity;
+    }
 }
